@@ -6,8 +6,7 @@ import { jwtService } from "./jwt.service";
 // * CREATE AXIOS INSTANCE
 // * ---------------------
 
-// export const baseURL = import.meta.env.VITE_API_ENDPOINT;
-export const baseURL = "http://localhost:3000";
+export const baseURL = import.meta.env.VITE_API_ENDPOINT;
 
 axios.defaults.baseURL = baseURL;
 
