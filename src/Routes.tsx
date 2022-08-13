@@ -28,7 +28,7 @@ export default function App() {
           <Route element={<PrivateRoute />}>
             <Route path={AppRoutes.movies} element={<MoviesView />} />
             <Route path="*" element={<ErrorView />} />
-            <Route path="/" element={<Navigate to={AppRoutes.movies} />} />
+            <Route path="/" element={<ErrorView />} />
           </Route>
 
           {/* * AUTH ROUTES */}
