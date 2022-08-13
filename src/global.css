@@ -9,7 +9,7 @@
   height: 100vh;
   width: 100%;
   z-index: 0;
-  background-image: url("./images/auth-bg.jpg");
+  background-image: url("../public/images/auth-bg.jpg");
   background-size: cover;
   filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.442);

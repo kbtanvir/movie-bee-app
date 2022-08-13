@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy-debug": "git add . && git commit -m $message && git push"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.7",
