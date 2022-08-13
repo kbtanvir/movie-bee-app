@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "git add . && git commit -m 'deploy-testing' && git push",
-    "demo": "echo \"Hello $npm_config_first $npm_config_last\""
+    "deploy-issue": "git add . && git commit -m 'deploy-issue' && git push"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.7",
